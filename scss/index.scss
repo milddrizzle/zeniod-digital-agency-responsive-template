@@ -6,12 +6,13 @@
 }
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   max-width: 100vw;
 }
 body {
   background-color: #101010;
   font-family: "Rubik", sans-serif;
+  overflow-x: hidden !important;
   &::-webkit-scrollbar {
     background-color: #101010;
     width: 0.5rem;
